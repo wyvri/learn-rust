@@ -26,9 +26,9 @@ fn main() {
             Ordering::Greater => println!("Too big!"),
             Ordering::Equal => { 
                 println!("You got it!");
+                power = power + 1;
+                answer = u64::pow(2, power)
             }
         };
-        power = power + 1;
-        answer = u64::pow(2, power)
     }
 }
