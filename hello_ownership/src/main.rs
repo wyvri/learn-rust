@@ -6,7 +6,7 @@ fn main() {
 
     println!("{your_string}");
 
-    let slice = &your_string[..];
+    let slice = &your_string[..2];
 
     println!("{slice}");
 }
