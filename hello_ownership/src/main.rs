@@ -5,6 +5,10 @@ fn main() {
     let your_string = yum(&my_string);
 
     println!("{your_string}");
+
+    let slice = &your_string[..];
+
+    println!("{slice}");
 }
 
 fn yum(my_string: &String) -> &String {
